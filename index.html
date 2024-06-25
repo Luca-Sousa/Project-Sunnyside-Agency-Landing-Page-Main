@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" href="src/output.css">
 </head>
-<body class="">
+<body class="max-w-[1440px] mx-auto bg-col-header">
 
   <header class="bg-col-header"> 
 
@@ -28,61 +28,140 @@
       </ul>
     </nav>
 
-    <div class="flex flex-col items-center h-96 bg-img-header-mb bg-cover bg-left-bottom bg-no-repeat pt-8">
+    <section class="flex flex-col items-center h-96 bg-img-header-mb bg-cover bg-left-bottom bg-no-repeat pt-8">
       <h2 class="uppercase font-Fraunces font-semibold text-5xl text-center 
       text-col-W tracking-wider">We are creatives</h2>
       <img class="mt-8" src="src/assets/images/icon-arrow-down.svg" alt="Image Icon Arrow Down" width="30" height="114">
-    </div>
+    </section>
   </header>
 
-  <main class="flex flex-col">
-    <img src="src/assets/mobile/image-transform.jpg">
-    
-    <div class="max-w-xs mx-auto text-center py-10 space-y-8">
-      <h2 class="font-Fraunces font-black text-3xl">Transform your brand</h2>
-      <p class="font-Barlow font-semibold text-lg text-col-DGB">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-      <button class="font-Fraunces font-black text-xl border-b-8 border-col-Y">Learn more</button>
+  <main class="bg-col-W">
+    <div class="flex flex-col md:flex-row md:flex-wrap">
+
+      <figure class="md:basis-1/2 md:order-2 md:h-[500px] lg:h-[600px]">
+        <img class="w-full max-h-[400px] object-cover object-center sm:max-h-[450px] md:hidden" src="src/assets/mobile/image-transform.jpg">
+        <img class="hidden w-full h-full object-cover object-center md:block" src="src/assets/desktop/image-transform.jpg" alt="">
+      </figure>
+
+      <section class="max-w-xs mx-auto flex flex-col text-center py-10 space-y-8 sm:max-w-sm sm:py-16 md:basis-1/2 md:order-1 md:h-[500px] md:justify-center lg:h-[600px] lg:text-left">
+        <h2 class="font-Fraunces font-black text-3xl lg:text-4xl">Transform your brand</h2>
+        <p class="font-Barlow font-semibold text-lg text-col-DGB">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <button class="mx-auto font-Fraunces font-black text-xl border-b-8 border-col-Y">Learn more</button>
+      </section>
+
+      <figure class="md:basis-1/2 md:order-3 md:h-[500px] lg:h-[600px]">
+        <img class="w-full max-h-[400px] object-cover object-center sm:max-h-[450px] md:hidden" src="src/assets/mobile/image-stand-out.jpg" alt="">
+        <img class="hidden w-full h-full object-cover object-center md:block" src="src/assets/desktop/image-stand-out.jpg" alt="">
+      </figure>
+        
+      <section class="max-w-xs mx-auto flex flex-col text-center py-10 space-y-8 sm:max-w-sm sm:py-16 md:basis-1/2 md:order-4 md:h-[500px] md:justify-center lg:h-[600px] lg:text-left">
+        <h2 class="font-Fraunces font-black text-3xl lg:text-4xl">Stand out to the right audience</h2>
+        <p class="font-Barlow font-semibold text-lg text-col-DGB">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+        <button class="mx-auto font-Fraunces font-black text-xl border-b-8 border-col-SR">Learn more</button>
+      </section>
     </div>
+
+    <div class="flex flex-col md:flex-row">
+      <div class="pt-[600px] bg-img-section1-mb bg-cover bg-center relative sm:pt-[700px] md:basis-1/2 md:bg-img-section1-dk md:pt-[500px] lg:pt-[600px]">
+        <section class="w-full absolute left-1/2 -translate-x-1/2 top-[63%] max-w-sm text-center space-y-8 px-4 sm:max-w-md">
+          <h2 class="font-Fraunces font-black text-3xl text-col-DDC">Graphic design</h2>
+          <p class="font-Barlow font-semibold text-lg text-col-DMC">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </section>
+      </div>
+
+      <div class="pt-[600px] bg-img-section2-mb bg-cover bg-center relative sm:pt-[700px] md:basis-1/2 md:bg-img-section2-dk md:pt-[500px] lg:pt-[600px]">
+        <section class="w-full absolute left-1/2 -translate-x-1/2 top-[63%] max-w-sm text-center space-y-8 px-4 text-col-DB sm:max-w-md">
+          <h2 class="font-Fraunces font-black text-3xl">Photography</h2>
+          <p class="max-w-sm font-Barlow font-semibold text-lg">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </section>
+      </div>
+    </div>
+
+    <div class="px-4 py-14 text-center md:py-24 md:px-8">
+        <h2 class="uppercase tracking-widest font-Fraunces font-black text-xl text-col-GB sm:text-2xl">Client testimonials</h2>
+
+        <div class="flex flex-col max-w-sm mx-auto py-16 gap-14 sm:max-w-md md:flex-row md:max-w-full">
+
+          <div class="flex flex-col justify-between gap-y-8">
+            <div class="space-y-8">
+              <img class="mx-auto w-20 h-20 rounded-full" src="src/assets/images/image-emily.jpg" alt="">
+              <p class="font-Barlow font-semibold text-lg text-col-VDGB">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            </div>
+     
+            <section class="space-y-2">
+              <h2 class="font-Fraunces font-black text-xl">Emily R.</h2>
+              <p class="font-Barlow font-semibold text-lg text-col-GB">Marketing Director</p>
+            </section>
+          </div>
+  
+          <div class="flex flex-col justify-between gap-y-8">
+            <div class="space-y-8">
+              <img class="mx-auto w-20 h-20 rounded-full" src="src/assets/images/image-thomas.jpg" alt="">
+              <p class="self-baseline font-Barlow font-semibold text-lg text-col-VDGB">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+            </div>
+     
+            <section class="space-y-2">
+              <h2 class="font-Fraunces font-black text-xl">Thomas S..</h2>
+              <p class="font-Barlow font-semibold text-lg text-col-GB">Chief Operating Officer</p>
+            </section>
+          </div>
+  
+          <div class="flex flex-col justify-between gap-y-8">
+            <div class="space-y-8">
+              <img class="mx-auto w-20 h-20 rounded-full" src="src/assets/images/image-jennie.jpg" alt="">
+              <p class="font-Barlow font-semibold text-lg text-col-VDGB">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            </div>
+     
+            <section class="space-y-2">
+              <h2 class="font-Fraunces font-black text-xl">Jennie F.</h2>
+              <p class="font-Barlow font-semibold text-lg text-col-GB">Business Owner</p>
+            </section>
+          </div>
+
+        </div>
+
+    </div>
+
+    <figure class="flex flex-wrap md:hidden">
+      <img class="max-h-[200px] w-1/2 object-cover object-bottom sm:max-h-[280px] md:w-1/4" src="src/assets/mobile/image-gallery-milkbottles.jpg" alt="">
+      <img class="max-h-[200px] w-1/2 object-cover object-left-top sm:max-h-[280px] md:w-1/4" src="src/assets/mobile/image-gallery-orange.jpg" alt="">
+      <img class="max-h-[200px] w-1/2 object-cover object-top sm:max-h-[280px] md:w-1/4" src="src/assets/mobile/image-gallery-cone.jpg" alt="">
+      <img class="max-h-[200px] w-1/2 object-cover object-left-top sm:max-h-[280px] md:w-1/4" src="src/assets/mobile/image-gallery-sugar-cubes.jpg" alt="">
+    </figure>
+
+    <figure class="hidden md:flex">
+      <img class="w-1/4 max-h-[380px]" src="src/assets/desktop/image-gallery-milkbottles.jpg" alt="">
+      <img class="w-1/4 max-h-[380px]" src="src/assets/desktop/image-gallery-orange.jpg" alt="">
+      <img class="w-1/4 max-h-[380px]" src="src/assets/desktop/image-gallery-cone.jpg" alt="">
+      <img class="w-1/4 max-h-[380px]" src="src/assets/desktop/image-gallery-sugarcubes.jpg" alt="">
+    </figure>
 
   </main>
 
+  <footer class="bg-col-footer px-6 py-16 space-y-16 md:px-0">
 
+    <nav class="flex flex-col items-center gap-8">
+      <figure class="h-12">
+        <img class="h-full" src="src/assets/images/logo.svg" alt="" width="164">
+      </figure>
+
+      <ul class="max-w-sm w-full flex justify-between font-Barlow font-semibold text-lg text-col-DMC md:max-w-md lg:max-w-lg">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <figure class="max-w-xs mx-auto w-full flex justify-evenly px-14 sm:px-4 md:px-0">
+      <img class="cursor-pointer" src="src/assets/images/icon-facebook.svg" alt="">
+      <img class="cursor-pointer" src="src/assets/images/icon-instagram.svg" alt="">
+      <img class="cursor-pointer" src="src/assets/images/icon-twitter.svg" alt="">
+      <img class="cursor-pointer" src="src/assets/images/icon-pinterest.svg" alt="">
+    </figure>
+
+  </footer>
   
-
-  
-
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
   <script src="src/script.js"></script>
 </body>
 </html>
