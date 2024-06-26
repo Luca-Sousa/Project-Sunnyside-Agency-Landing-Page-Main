@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'col-header': 'hsl(200, 100, 62)',
         'col-footer': 'hsl(167, 44, 70)',
+        'col-act-contact': 'hsl(201, 100, 72)',
         'col-SR': 'hsl(7, 99%, 70%)',
         'col-Y': 'hsl(51, 100%, 49%)',
         'col-DDC': 'hsl(167, 40%, 24%)',
@@ -29,12 +30,17 @@ module.exports = {
         'img-section1-dk': "url('/src/assets/desktop/image-graphic-design.jpg')",
         'img-section2-dk': "url('/src/assets/desktop/image-photography.jpg')"
       },
+      width: {
+        'menu-mb': 'calc(100% - 48px)'
+      },
       screens: {
         '2xs': '430px',
         'xs': '600px'
       },
       boxShadow: {
-        'sd-body': 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;'
+        'sd-body': 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px',
+        'sd-gallery-dk': 'rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px',
+        'sd-gallery-mb': 'rgba(0, 0, 0, 0.4) 0px 30px 90px'
       },
     },
   },
