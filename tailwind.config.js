@@ -25,8 +25,16 @@ module.exports = {
         'img-header-mb': "url('/src/assets/mobile/image-header.jpg')",
         'img-section1-mb': "url('/src/assets/mobile/image-graphic-design.jpg')",
         'img-section2-mb': "url('/src/assets/mobile/image-photography.jpg')",
+        'img-header-dk': "url('/src/assets/desktop/image-header.jpg')",
         'img-section1-dk': "url('/src/assets/desktop/image-graphic-design.jpg')",
         'img-section2-dk': "url('/src/assets/desktop/image-photography.jpg')"
+      },
+      screens: {
+        '2xs': '430px',
+        'xs': '600px'
+      },
+      boxShadow: {
+        'sd-body': 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;'
       },
     },
   },

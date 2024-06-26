@@ -10,11 +10,11 @@
 
   <link rel="stylesheet" href="src/output.css">
 </head>
-<body class="max-w-[1440px] mx-auto bg-col-header">
+<body class="max-w-[1440px] mx-auto bg-col-DB shadow-sd-body">
 
   <header class="bg-col-header"> 
 
-    <nav class="p-6">
+    <nav class="px-6 py-8">
       <figure class="flex items-center justify-between">
         <img src="src/assets/images/logo.svg" alt="Image Logo" width="124" height="24">
         <img class="h-4 cursor-pointer" src="src/assets/images/icon-hamburger.svg" alt="Image Menu" width="24" height="18">
@@ -28,33 +28,34 @@
       </ul>
     </nav>
 
-    <section class="flex flex-col items-center h-96 bg-img-header-mb bg-cover bg-left-bottom bg-no-repeat pt-8">
-      <h2 class="uppercase font-Fraunces font-semibold text-5xl text-center 
-      text-col-W tracking-wider">We are creatives</h2>
-      <img class="mt-8" src="src/assets/images/icon-arrow-down.svg" alt="Image Icon Arrow Down" width="30" height="114">
+    <section class="pt-[400px] flex justify-center bg-img-header-mb bg-cover bg-bottom relative 2xs:pt-[500px] xs:pt-[550px] sm:pt-[600px] md:pt-[650px] md:bg-img-header-dk">
+      <div class="max-w-sm flex flex-col items-center absolute top-10 gap-8 md:top-28 md:max-w-full md:gap-14">
+        <h2 class="uppercase font-Fraunces font-semibold text-5xl text-center text-col-W tracking-widest xs:text-6xl">We are creatives</h2>
+        <img class="2xs:h-32 xs:h-36" src="src/assets/images/icon-arrow-down.svg" alt="Image Icon Arrow Down" width="30" height="114">
+      </div>
     </section>
   </header>
 
   <main class="bg-col-W">
     <div class="flex flex-col md:flex-row md:flex-wrap">
 
-      <figure class="md:basis-1/2 md:order-2 md:h-[500px] lg:h-[600px]">
+      <figure class="md:basis-1/2 md:order-2 md:h-[500px] lg:h-[550px]">
         <img class="w-full max-h-[400px] object-cover object-center sm:max-h-[450px] md:hidden" src="src/assets/mobile/image-transform.jpg">
         <img class="hidden w-full h-full object-cover object-center md:block" src="src/assets/desktop/image-transform.jpg" alt="">
       </figure>
 
-      <section class="max-w-xs mx-auto flex flex-col text-center py-10 space-y-8 sm:max-w-sm sm:py-16 md:basis-1/2 md:order-1 md:h-[500px] md:justify-center lg:h-[600px] lg:text-left">
+      <section class="max-w-xs mx-auto flex flex-col text-center px-4 py-10 space-y-8 sm:max-w-sm sm:py-16 md:basis-1/2 md:order-1 md:h-[500px] md:justify-center lg:h-[550px] lg:text-left lg:px-0">
         <h2 class="font-Fraunces font-black text-3xl lg:text-4xl">Transform your brand</h2>
         <p class="font-Barlow font-semibold text-lg text-col-DGB">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
         <button class="mx-auto font-Fraunces font-black text-xl border-b-8 border-col-Y">Learn more</button>
       </section>
 
-      <figure class="md:basis-1/2 md:order-3 md:h-[500px] lg:h-[600px]">
+      <figure class="md:basis-1/2 md:order-3 md:h-[500px] lg:h-[550px]">
         <img class="w-full max-h-[400px] object-cover object-center sm:max-h-[450px] md:hidden" src="src/assets/mobile/image-stand-out.jpg" alt="">
         <img class="hidden w-full h-full object-cover object-center md:block" src="src/assets/desktop/image-stand-out.jpg" alt="">
       </figure>
         
-      <section class="max-w-xs mx-auto flex flex-col text-center py-10 space-y-8 sm:max-w-sm sm:py-16 md:basis-1/2 md:order-4 md:h-[500px] md:justify-center lg:h-[600px] lg:text-left">
+      <section class="max-w-xs mx-auto flex flex-col text-center px-4 py-10 space-y-8 sm:max-w-sm sm:py-16 md:basis-1/2 md:order-4 md:h-[500px] md:justify-center lg:h-[550px] lg:text-left lg:px-0">
         <h2 class="font-Fraunces font-black text-3xl lg:text-4xl">Stand out to the right audience</h2>
         <p class="font-Barlow font-semibold text-lg text-col-DGB">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
         <button class="mx-auto font-Fraunces font-black text-xl border-b-8 border-col-SR">Learn more</button>
@@ -62,15 +63,15 @@
     </div>
 
     <div class="flex flex-col md:flex-row">
-      <div class="pt-[600px] bg-img-section1-mb bg-cover bg-center relative sm:pt-[700px] md:basis-1/2 md:bg-img-section1-dk md:pt-[500px] lg:pt-[600px]">
-        <section class="w-full absolute left-1/2 -translate-x-1/2 top-[63%] max-w-sm text-center space-y-8 px-4 sm:max-w-md">
+      <div class="pt-[600px] bg-img-section1-mb bg-cover bg-top relative 2xs:pt-[700px] xs:bg-center md:basis-1/2 md:bg-img-section1-dk md:pt-[500px] lg:pt-[550px]">
+        <section class="w-full absolute left-1/2 -translate-x-1/2 top-[63%] 2xs:top-[73%] xs:top-[63%] max-w-sm text-center space-y-8 px-4 sm:max-w-md">
           <h2 class="font-Fraunces font-black text-3xl text-col-DDC">Graphic design</h2>
           <p class="font-Barlow font-semibold text-lg text-col-DMC">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
         </section>
       </div>
 
-      <div class="pt-[600px] bg-img-section2-mb bg-cover bg-center relative sm:pt-[700px] md:basis-1/2 md:bg-img-section2-dk md:pt-[500px] lg:pt-[600px]">
-        <section class="w-full absolute left-1/2 -translate-x-1/2 top-[63%] max-w-sm text-center space-y-8 px-4 text-col-DB sm:max-w-md">
+      <div class="pt-[600px] bg-img-section2-mb bg-cover bg-top relative 2xs:pt-[700px] xs:bg-center md:basis-1/2 md:bg-img-section2-dk md:pt-[500px] lg:pt-[550px]">
+        <section class="w-full absolute left-1/2 -translate-x-1/2 top-[63%] 2xs:top-[73%] xs:top-[63%] max-w-sm text-center space-y-8 px-4 text-col-DB sm:max-w-md">
           <h2 class="font-Fraunces font-black text-3xl">Photography</h2>
           <p class="max-w-sm font-Barlow font-semibold text-lg">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
         </section>
@@ -80,7 +81,7 @@
     <div class="px-4 py-14 text-center md:py-24 md:px-8">
         <h2 class="uppercase tracking-widest font-Fraunces font-black text-xl text-col-GB sm:text-2xl">Client testimonials</h2>
 
-        <div class="flex flex-col max-w-sm mx-auto py-16 gap-14 sm:max-w-md md:flex-row md:max-w-full">
+        <div class="flex flex-col max-w-sm mx-auto py-16 gap-14 sm:max-w-md md:flex-row md:max-w-full lg:px-20">
 
           <div class="flex flex-col justify-between gap-y-8">
             <div class="space-y-8">
@@ -141,8 +142,8 @@
   <footer class="bg-col-footer px-6 py-16 space-y-16 md:px-0">
 
     <nav class="flex flex-col items-center gap-8">
-      <figure class="h-12">
-        <img class="h-full" src="src/assets/images/logo.svg" alt="" width="164">
+      <figure class="h-12 md:h-16">
+        <img class="h-full md:w-48" src="src/assets/images/logo.svg" alt="" width="164">
       </figure>
 
       <ul class="max-w-sm w-full flex justify-between font-Barlow font-semibold text-lg text-col-DMC md:max-w-md lg:max-w-lg">
@@ -153,11 +154,11 @@
       </ul>
     </nav>
 
-    <figure class="max-w-xs mx-auto w-full flex justify-evenly px-14 sm:px-4 md:px-0">
-      <img class="cursor-pointer" src="src/assets/images/icon-facebook.svg" alt="">
-      <img class="cursor-pointer" src="src/assets/images/icon-instagram.svg" alt="">
-      <img class="cursor-pointer" src="src/assets/images/icon-twitter.svg" alt="">
-      <img class="cursor-pointer" src="src/assets/images/icon-pinterest.svg" alt="">
+    <figure class="max-w-xs mx-auto w-full flex justify-evenly px-14 md:px-8">
+      <img class="cursor-pointer" src="src/assets/images/icon-facebook.svg" alt="" width="20" height="20">
+      <img class="cursor-pointer" src="src/assets/images/icon-instagram.svg" alt="" width="20" height="20">
+      <img class="cursor-pointer" src="src/assets/images/icon-twitter.svg" alt="" width="20" height="20">
+      <img class="cursor-pointer" src="src/assets/images/icon-pinterest.svg" alt="" width="20" height="20">
     </figure>
 
   </footer>
